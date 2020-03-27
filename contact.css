@@ -1,0 +1,315 @@
+* {
+  background-color: #363635;
+}
+
+<style>
+@import url('https://fonts.googleapis.com/css?family=B612&display=swap');
+</style>
+
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* colour platee
+/*  https://artsexperiments.withgoogle.com/artpalette/colors/d7c892-363635-0ca7d2-d38281-846c5d */
+
+/* 
+
+light brown
+#d7c892 
+
+grey
+#363635
+
+blue
+#0ca7d2
+
+pink
+#d38281
+
+darker brown
+#846c5d */
+
+/* /////////////////////////////////////////////////////////////////////////////////////// */
+
+.nav {
+  /* must have the display set to grid to show */
+  /* building the grid lines inside */
+  display: grid;
+  /* this keeps the top nav bar at the top position */
+  /* position: fixed; */
+  grid-template-rows: 0.05fr 0.9fr 0.05fr;
+  /* grid-template-columns: 0.4fr 0.2fr 0.05fr 0.2fr 0.05fr; */
+  grid-template-columns: 1fr 0.8fr 0.05fr 0.25fr 0.05fr;
+  padding: 10px;
+  /* the sie of the grid and the content inside */
+  width: 100vw;
+  height: 100px;
+  /* background: cadetblue; */
+  background: #363635;
+  /* border of the lines around the grid */
+  /* border: 1px solid black; */
+}
+
+.logo {
+  /* This helps center and align in middle of the box */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  /* sets the grid row and columns and places them in place */
+  grid-row: 2 / 3;
+  grid-column: 1 / 2;
+
+  /* font color */
+  color: black;
+  font-family: 'B612', sans-serif;
+  font-size: 2em;
+  /* background-color: cadetblue; */
+  /* This must match the background */
+  background-color: #363635;
+}
+
+.links-top {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  grid-row: 2 / 3;
+  grid-column: 2 / 3;
+
+  /* border: 1px solid black; */
+  color: bisque;
+  background-color: #d7c892;
+  font-family: sans-serif;
+}
+
+.links-top a {
+  color: white;
+}
+
+.contact a {
+  color: white;
+}
+
+.contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  grid-row: 2 / 3;
+  grid-column: 4 / 5;
+  border: 1px solid black;
+  color: bisque;
+  background-color: #d7c892;
+}
+
+/* end of top nav bar section */
+/* ///////////////////////////////////////////////////////////////////////////////////////// */
+
+
+/* image at the top of the screen */
+/* to do - resize aspect ratio 2:40 */
+/* deal with the image near the top */
+
+/* i will need to make the images for this part the exact some size just in case */
+/* 600px in height */
+
+.container-height{
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: 1fr;
+  width: 100vw;
+  height: 600px;
+}
+
+
+.imagecontainer {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.image{
+  flex: 1;
+}
+
+.crossfade img {
+-webkit-transition: opacity 1s ease-in-out;
+-moz-transition: opacity 1s ease-in-out;
+-o-transition: opacity 1s ease-in-out;
+transition: opacity 1s ease-in-out;
+}
+
+.crossfade {
+  background: url(./images/junesleep.png);
+  width: 100px;
+  display: inline-block;
+  font-size: 0;
+  background-size: cover;
+}
+
+.crossfade img:hover{
+  opacity: 0;
+}
+
+@media only screen and (min-width: 550px) {
+  .imagecontainer img {
+    width: 100%;
+  }
+}
+
+/* /////////////////////////////////////////////////////////////////////////////////// */
+/* about section */
+
+.about-section {
+  /* must have the display set to grid to show */
+  /* building the grid lines inside */
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: 1fr 10px 2fr;
+  /* padding: 10px; */
+  /* the sie of the grid and the content inside */
+  width: 100vw;
+  height: 500px;
+  /* for testing purposes */
+  /* background: #363635; */
+  /* background: white; */
+  /* border of the lines around the grid */
+  /* border: 1px solid black; */
+}
+
+.info {
+  grid-row: 1 / 2;
+  grid-column: 3 / 4;
+  /* border: 1px solid black; */
+  padding: 10px;
+  justify-content: space-evenly;
+  text-align: justify;
+  color: bisque;
+  background-color: #d7c892;
+  font-family: 'B612', sans-serif;
+  font-size: 1em;
+}
+
+.skills {
+  grid-row: 1 / 2;
+  grid-column: 1 / 2;
+  /* border: 1px solid black; */
+  color: black;
+  background-color: #d7c892;
+  font-family: 'B612', sans-serif;
+  font-size: 1em;
+
+  /* sets the text to be centered */
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+}
+
+
+
+/* end of about section */
+
+
+/* ////////////////////////////////////////////////////////////////////////////////// */
+/* remember to put this stuff on sep style sheets */
+
+/* image two might have that cool motion slide thing there */
+
+.image-container2 img {
+  width: 100%;
+  padding-top: 10px;
+}
+
+@media only screen and (min-width: 550px) {
+  .image-container2 img {
+    width: 50%;
+  }
+}
+
+/* end of image two section */
+/* possible to put sliding images there */
+
+
+/* ///////////////////////////////////////////////////////////////////////// */
+
+/* lower container stuff */
+
+.lower-container {
+  /* must have the display set to grid to show */
+  /* building the grid lines inside */
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: 2fr 10px 1fr;
+  padding: 10px;
+  /* the sie of the grid and the content inside */
+  width: 100vw;
+  height: 300px;
+
+  /* for testing purposes */
+  background: #363635;
+
+  background: white;
+  /* border of the lines around the grid */
+  border: 1px solid black;
+}
+
+.form {
+  font-size: 2em;
+  grid-row: 1 / 2;
+  grid-column: 3 / 4;
+  background-color: #d7c892;
+}
+
+
+.words {
+  font-size: 2em;
+  grid-row: 1 / 2;
+  grid-column: 1 / 2;
+  background-color: yellow;
+}
+
+
+
+/* /////////////////////// */
+
+/* twitter */
+
+/* move to another style sheet */
+
+blockquote.twitter-tweet {
+  display: inline-block;
+  font-family: "Helvetica Neue", Roboto, "Segoe UI", Calibri, sans-serif;
+  font-size: 12px;
+  font-weight: bold;
+  line-height: 16px;
+  border-color: #eee #ddd #bbb;
+  border-radius: 5px;
+  border-style: solid;
+  border-width: 1px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15);
+  margin: 10px 5px;
+  padding: 0 16px 16px 16px;
+  max-width: 468px;
+}
+
+blockquote.twitter-tweet p {
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 20px;
+}
+
+blockquote.twitter-tweet a {
+  color: inherit;
+  font-weight: normal;
+  text-decoration: none;
+  outline: 0 none;
+}
+
+blockquote.twitter-tweet a:hover,
+blockquote.twitter-tweet a:focus {
+  text-decoration: underline;
+}

@@ -1,0 +1,17 @@
+/* hover effects on sep style sheet */
+
+.links-top:hover {
+  background-color: brown;
+}
+
+.contact:hover {
+  background-color: brown;
+}
+
+.skills:hover {
+  background-color: brown;
+}
+
+.info:hover {
+  background-color: brown;
+}

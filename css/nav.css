@@ -48,7 +48,7 @@
   grid-row: 2 / 3;
   grid-column: 2 / 3;
 
-  /* border: 1px solid black; */
+  border: 1px solid black;
   color: bisque;
   background-color: #d7c892;
   font-family: sans-serif;
@@ -73,24 +73,6 @@
   border: 1px solid black;
   color: bisque;
   background-color: #d7c892;
-}
-
-/* hover effects on sep style sheet */
-
-.links-top:hover {
-  background-color: brown;
-}
-
-.contact:hover {
-  background-color: brown;
-}
-
-.skills:hover {
-  background-color: brown;
-}
-
-.info:hover {
-  background-color: brown;
 }
 
 /* end of top nav bar section */

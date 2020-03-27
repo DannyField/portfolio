@@ -1,27 +1,99 @@
-@import "./css/nav.css";
+/* /////////////////////////////////////////////////////////////////////////////////////// */
+/* start */
 
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
+.nav {
+  /* must have the display set to grid to show */
+  /* building the grid lines inside */
+  display: grid;
+  /* this keeps the top nav bar at the top position */
+  /* position: fixed; */
+  grid-template-rows: 0.05fr 0.9fr 0.05fr;
+  /* grid-template-columns: 0.4fr 0.2fr 0.05fr 0.2fr 0.05fr; */
+  grid-template-columns: 1fr 0.8fr 0.01fr 0.25fr 0.03fr;
+  /* padding: 10px; */
+  /* the sie of the grid and the content inside */
+  width: 100vw;
+  height: 150px;
+  /* background: cadetblue; */
+  background: #363635;
+  /* border of the lines around the grid */
+  /* border: 1px solid black; */
 }
 
-/* colour platee
-/*  https://artsexperiments.withgoogle.com/artpalette/colors/d7c892-363635-0ca7d2-d38281-846c5d */
+.logo {
+  /* This helps center and align in middle of the box */
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
-/* 
+  /* sets the grid row and columns and places them in place */
+  grid-row: 2 / 3;
+  grid-column: 1 / 2;
 
-light brown
-#d7c892 
-grey
-#363635
-blue
-#0ca7d2
-pink
-#d38281
-darker brown
-#846c5d */
+  /* font color */
+  color: black;
+  font-family: "B612", sans-serif;
+  font-size: 2em;
+  /* background-color: cadetblue; */
+  /* This must match the background */
+  background-color: #363635;
+}
 
+.links-top {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  grid-row: 2 / 3;
+  grid-column: 2 / 3;
+
+  /* border: 1px solid black; */
+  color: bisque;
+  background-color: #d7c892;
+  font-family: sans-serif;
+}
+
+.links-top a {
+  color: white;
+  text-decoration: none;
+}
+
+.contact a {
+  color: white;
+  text-decoration: none;
+}
+
+.contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  grid-row: 2 / 3;
+  grid-column: 4 / 5;
+  border: 1px solid black;
+  color: bisque;
+  background-color: #d7c892;
+}
+
+/* hover effects on sep style sheet */
+
+.links-top:hover {
+  background-color: brown;
+}
+
+.contact:hover {
+  background-color: brown;
+}
+
+.skills:hover {
+  background-color: brown;
+}
+
+.info:hover {
+  background-color: brown;
+}
+
+/* end of top nav bar section */
 /* ///////////////////////////////////////////////////////////////////////////////////////// */
 
 /* image at the top of the screen */

@@ -109,18 +109,40 @@ darker brown
 
 /* deal with the image near the top */
 
-.image-container {
-  /* width: 100%; */
+/* i will need to make the images for this part the exact some size just in case */
+
+.imagecontainer {
   display: flex;
-  justify-content: center;
-  align-items: center;
-  background-size: cover;
-  background: url(./images/topImage.png)
+  flex-wrap: wrap;
 }
 
+.image{
+  flex: 1;
+}
+
+.crossfade img {
+-webkit-transition: opacity 1s ease-in-out;
+-moz-transition: opacity 1s ease-in-out;
+-o-transition: opacity 1s ease-in-out;
+transition: opacity 1s ease-in-out;
+}
+
+.crossfade {
+  background: url(./images/junesleep.png);
+  width: 100px;
+  display: inline-block;
+  font-size: 0;
+  background-size: cover;
+}
+
+.crossfade img:hover{
+  opacity: 0;
+}
+
+
 @media only screen and (min-width: 550px) {
-  .image-container img {
-    width: 50%;
+  .imagecontainer img {
+    width: 100%;
   }
 }
 

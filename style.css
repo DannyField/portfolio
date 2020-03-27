@@ -100,6 +100,24 @@ darker brown
   background-color: #d7c892;
 }
 
+/* hover effects on sep style sheet */
+
+.links-top:hover {
+  background-color: brown;
+}
+
+.contact:hover {
+  background-color: brown;
+}
+
+.skills:hover {
+  background-color: brown;
+}
+
+.info:hover {
+  background-color: brown;
+}
+
 /* end of top nav bar section */
 /* ///////////////////////////////////////////////////////////////////////////////////////// */
 
@@ -332,4 +350,87 @@ darker brown
   transition: 0.5s;
   transition-delay: 0.5;
   transform: translateY(0px);
+}
+
+/* cool slider pure css hover */
+
+.fond {
+  /* position: absolute; */
+  /* padding-top: 85px; */
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  /* background-color: #65c6bb; */
+}
+
+.box_light {
+  display: table-cell;
+  width: 350px;
+  height: 350px;
+  background-size: cover;
+  overflow: hidden;
+  position: relative;
+}
+.box_light .shadow_swhow_mini {
+  background-color: rgba(19, 30, 33, 0.4);
+  position: absolute;
+  z-index: 1000;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+.box_light:hover .shadow_swhow_mini {
+  background-color: rgba(16, 23, 41, 0);
+}
+
+/* deals with the left side */
+.box_light .deroul_titre {
+  position: absolute;
+  text-transform: uppercase;
+  font-family: "Roboto";
+  padding: 7px;
+  z-index: 1000;
+  top: 60%;
+  left: -80%;
+  color: #ffffff;
+  font-weight: 300;
+  font-size: 13px;
+  width: 80%;
+  -webkit-transition: all 0.7s;
+  -moz-transition: all 0.7s;
+  -ms-transition: all 0.7s;
+  transition: all 0.7s;
+}
+
+/* text from the left side */
+.box_light:hover .deroul_titre {
+  background-color: #1e4944;
+  left: 0px;
+}
+
+/* deals with the right side */
+.box_light .deroul_soustitre {
+  position: absolute;
+  font-family: "Roboto";
+  padding: 5px;
+  z-index: 1000;
+  top: 60%;
+  right: -85%;
+  margin-top: 55px;
+  color: #ffffff;
+  font-weight: 300;
+  font-size: 11px;
+  width: 80%;
+  -webkit-transition: all 0.7s;
+  -moz-transition: all 0.7s;
+  -ms-transition: all 0.7s;
+  transition: all 0.7s;
+}
+
+/* text from the right side */
+.box_light:hover .deroul_soustitre {
+  background-color: #417c74;
+  right: 0px;
 }

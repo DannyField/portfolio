@@ -1,3 +1,225 @@
 * {
+  background-color: #363635;
+}
+
+<style>
+@import url('https://fonts.googleapis.com/css?family=B612&display=swap');
+</style>
+
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* colour platee
+/*  https://artsexperiments.withgoogle.com/artpalette/colors/d7c892-363635-0ca7d2-d38281-846c5d */
+
+/* 
+
+light brown
+#d7c892 
+
+grey
+#363635
+
+blue
+#0ca7d2
+
+pink
+#d38281
+
+darker brown
+#846c5d */
+
+.nav {
+  /* must have the display set to grid to show */
+  /* building the grid lines inside */
+  display: grid;
+  /* this keeps the top nav bar at the top position */
+  /* position: fixed; */
+  grid-template-rows: 0.05fr 0.9fr 0.05fr;
+  /* grid-template-columns: 0.4fr 0.2fr 0.05fr 0.2fr 0.05fr; */
+  grid-template-columns: 1fr 0.8fr 0.05fr 0.25fr 0.05fr;
+  padding: 10px;
+  /* the sie of the grid and the content inside */
+  width: 100vw;
+  height: 200px;
+  /* background: cadetblue; */
+  background: #363635;
+  /* border of the lines around the grid */
+  /* border: 1px solid black; */
+}
+
+.logo {
+  /* This helps center and align in middle of the box */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  /* sets the grid row and columns and places them in place */
+  grid-row: 2 / 3;
+  grid-column: 1 / 2;
+
+  /* font color */
+  color: black;
+  font-family: 'B612', sans-serif;
+  font-size: 2em;
+  /* background-color: cadetblue; */
+  /* This must match the background */
+  background-color: #363635;
+}
+
+.links-top {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  grid-row: 2 / 3;
+  grid-column: 2 / 3;
+
+  /* border: 1px solid black; */
+  color: bisque;
+  background-color: #d7c892;
+  font-family: sans-serif;
+}
+
+.links-top a {
+  color: white;
+}
+
+.contact a {
+  color: white;
+}
+
+.contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  grid-row: 2 / 3;
+  grid-column: 4 / 5;
+  border: 1px solid black;
+  color: bisque;
+  background-color: #d7c892;
+}
+
+/* end of top nav bar section */
+
+/* deal with the image near the top */
+
+.image-container {
+  /* width: 100%; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+  background: url(./images/topImage.png)
+}
+
+@media only screen and (min-width: 550px) {
+  .image-container img {
+    width: 50%;
+  }
+}
+
+/* about section */
+
+.about-section {
+  /* must have the display set to grid to show */
+  /* building the grid lines inside */
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: 1fr 10px 2fr;
+  padding: 10px;
+  /* the sie of the grid and the content inside */
+  width: 100vw;
+  height: 300px;
+
+  /* for testing purposes */
+  background: cadetblue;
+
+  /* background: white; */
+  /* border of the lines around the grid */
+  border: 1px solid black;
+}
+
+.info {
+  grid-row: 1 / 2;
+  grid-column: 3 / 4;
+  border: 1px solid black;
+  padding: 10px;
+  justify-content: space-evenly;
+  text-align: justify;
+  color: bisque;
+  background-color: slateblue;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 1em;
+}
+
+.skills {
+  grid-row: 1 / 2;
+  grid-column: 1 / 2;
+  border: 1px solid black;
+  color: bisque;
   background-color: teal;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 1em;
+}
+
+/* end of about section */
+/* remember to put this stuff on sep style sheets */
+
+/* image two might have that cool motion slide thing there */
+
+.image-container2 img {
+  width: 100%;
+  padding-top: 10px;
+}
+
+@media only screen and (min-width: 550px) {
+  .image-container2 img {
+    width: 50%;
+  }
+}
+
+/* end of image two section */
+/* possible to put sliding images there */
+
+/* lower container stuff */
+
+.lower-container {
+  /* must have the display set to grid to show */
+  /* building the grid lines inside */
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: 2fr 10px 1fr;
+  padding: 10px;
+  /* the sie of the grid and the content inside */
+  width: 100vw;
+  height: 300px;
+
+  /* for testing purposes */
+  background: cadetblue;
+
+  background: white;
+  /* border of the lines around the grid */
+  border: 1px solid black;
+}
+
+.form {
+  font-size: 2em;
+  grid-row: 1 / 2;
+  grid-column: 3 / 4;
+  background-color: violet;
+}
+
+.words {
+  font-size: 2em;
+  grid-row: 1 / 2;
+  grid-column: 1 / 2;
+  background-color: yellow;
 }

@@ -25,6 +25,7 @@ darker brown
 #846c5d */
 
 /* /////////////////////////////////////////////////////////////////////////////////////// */
+/* start */
 
 .nav {
   /* must have the display set to grid to show */
@@ -34,7 +35,7 @@ darker brown
   /* position: fixed; */
   grid-template-rows: 0.05fr 0.9fr 0.05fr;
   /* grid-template-columns: 0.4fr 0.2fr 0.05fr 0.2fr 0.05fr; */
-  grid-template-columns: 1fr 0.8fr 0.05fr 0.25fr 0.05fr;
+  grid-template-columns: 1fr 0.8fr 0.01fr 0.25fr 0.03fr;
   /* padding: 10px; */
   /* the sie of the grid and the content inside */
   width: 100vw;
@@ -178,7 +179,7 @@ darker brown
   /* building the grid lines inside */
   display: grid;
   grid-template-rows: 1fr;
-  grid-template-columns: 1fr 10px 2fr;
+  grid-template-columns: 1fr 2fr;
   /* padding: 10px; */
   /* the sie of the grid and the content inside */
   width: 100vw;
@@ -192,7 +193,7 @@ darker brown
 
 .info {
   grid-row: 1 / 2;
-  grid-column: 3 / 4;
+  grid-column: 2 / 3;
   /* border: 1px solid black; */
   padding: 100px;
   justify-content: space-evenly;
@@ -248,7 +249,7 @@ darker brown
   /* building the grid lines inside */
   display: grid;
   grid-template-rows: 1fr;
-  grid-template-columns: 2fr 10px 1fr;
+  grid-template-columns: 1fr 1fr;
   /* padding: 10px; */
   /* the sie of the grid and the content inside */
   width: 100vw;
@@ -265,15 +266,22 @@ darker brown
 .form {
   font-size: 1em;
   grid-row: 1 / 2;
-  grid-column: 3 / 4;
-  background-color: #d7c892;
+  grid-column: 2 / 3;
+  grid-column: 2 / 3;
+  background-color: #363635;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .words {
   font-size: 1em;
   grid-row: 1 / 2;
   grid-column: 1 / 2;
-  background-color: #d7c892;
+  background-color: #363635;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 /* /////////////////////// */

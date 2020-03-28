@@ -14,16 +14,25 @@
   border-right: 1px solid black;
   transition: all 0.5s ease-in-out;
   overflow: hidden;
+  /* background: brown; */
+  background: linear-gradient(0, 0, 0, 0.9), rgba(165, 42, 42, 0.5);
+  opacity: 0.5;
+  /* filter: blur(5px); */
 }
 
 /* this will make the width of the selected boxes wider */
 .slider .slide:hover {
   flex-grow: 10;
+  background: black;
+  opacity: 1;
+  /* filter: blur(0px); */
 }
 
 .slider .slide:last-child {
   border-right: none;
 }
+
+/* TEXT BOXES */
 
 .slider .slide .content {
   position: absolute;
@@ -34,9 +43,8 @@
 
   /* background-color: rgba(0, 0, 0, 0.7); */
   background-color: rgba(165, 42, 42, 0.7);
-
   /* font color for the pop ups*/
-  color: white;
+  color: black;
   visibility: none;
   opacity: 0;
   transform: translateY(100px);
@@ -49,8 +57,14 @@
   transition-delay: 0.5;
   /* this is the y postion */
   transform: translateY(0px);
+
+  /* hopefully this will blur out the background image */
 }
 
+/* END of text box section */
+
+/* ////////////////////////////////////////////////////////////////////// */
+/* IMAGES */
 /* images go below on seperate nth-childs */
 /* images must be saved in slide folder and background-image must be written */
 .slider .slide:nth-child(1) {

@@ -23,7 +23,8 @@
 .logo {
   /* This helps center and align in middle of the box */
   display: flex;
-  justify-content: center;
+  justify-content: left;
+  padding: 10px;
   align-items: center;
 
   /* sets the grid row and columns and places them in place */
@@ -32,7 +33,7 @@
 
   /* font color */
   color: black;
-  font-family: "B612", sans-serif;
+  /* font-family: "B612", sans-serif; */
   font-size: 2em;
   /* background-color: cadetblue; */
   /* This must match the background */
@@ -49,18 +50,18 @@
   grid-column: 2 / 3;
 
   border: 1px solid black;
-  color: bisque;
+  /* color: bisque; */
   background-color: #d7c892;
   font-family: sans-serif;
 }
 
 .links-top a {
-  color: white;
+  /* color: white; */
   text-decoration: none;
 }
 
 .contact a {
-  color: white;
+  /* color: white; */
   text-decoration: none;
 }
 

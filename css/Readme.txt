@@ -12,3 +12,6 @@ Looks after the hover effect on the page - such as contact, nav bar top - mostly
 
 boxlight.css
 Looks after the image in the 'about me' section
+
+nav-effects.css
+controls the little animation effect at the nav bar. Also possibly controls the overall fonts

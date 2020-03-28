@@ -9,3 +9,6 @@ looks after the ultra cool slide section that will display some of the projects
 
 hover.css
 Looks after the hover effect on the page - such as contact, nav bar top - mostly making it go from light brown to red brown
+
+boxlight.css
+Looks after the image in the 'about me' section

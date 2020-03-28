@@ -116,7 +116,6 @@ darker brown
 .skills {
   grid-row: 1 / 2;
   grid-column: 1 / 2;
-
   /* sets the text to be centered */
   display: flex;
   justify-content: center;

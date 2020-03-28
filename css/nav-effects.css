@@ -68,3 +68,7 @@
   color: black;
   font-size: 24px;
 }
+
+.logo img:hover {
+  filter: drop-shadow(25px 10px 3px black);
+}

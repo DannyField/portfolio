@@ -5,6 +5,7 @@
 @import "./css/hover.css";
 @import "./css/boxlight.css";
 @import url("https://fonts.googleapis.com/css?family=Titillium+Web:400,600");
+@import "./css/contact.css";
 
 * {
   padding: 0;

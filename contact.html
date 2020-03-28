@@ -4,21 +4,23 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <link rel="stylesheet" href="contact.css" />
+    <link rel="stylesheet" href="./style.css" />
     <title>Contact</title>
   </head>
   <body>
     <!-- nav top class -->
     <div class="nav">
       <!-- top logo -->
-      <div class="logo">Danny Field</div>
+      <div class="logo">
+        <img src="/images/logo.png" width="150px" height="100px" />
+      </div>
 
       <!-- links -->
       <div class="links-top">
-        <a href="">ABOUT  |</a>
-        <a href="">  BLOG  |</a>
-        <a href="">  SKILLS  |</a>
-        <a href="">  PROJECTS</a>
+        <a href="./index.html">ABOUT</a>
+        <a href="./blog.html">BLOG</a>
+        <a href="./skills.html">SKILLS</a>
+        <a href="./projects.html">PROJECTS</a>
       </div>
 
       <!-- contact email page -->
@@ -29,94 +31,94 @@
 
     <!-- end of the nav section -->
 
-<!-- ////////////////////////////////////////////////////////////////////////////////////////// -->
+    <!-- ////////////////////////////////////////////////////////////////////////////////////////// -->
 
     <!-- start of about section -->
-    
-    <div class="contact-me">
-<div class="form">
-    <form>
-        <label for="email">I'd love to hear from you</label>
-        <input class="input-username-and-password" 
-        type="email" 
-        placeholder="Enter email" 
-        name="email" 
-        id="email" />
-        <!-- <p id="email-msg">We'll never share your email with anyone else</p> -->
-        <label for="password">Leave Me A Msg!</label>
-        
-<input class="input-username-and-password" 
-type="text"
-placeholder="Type your msg" 
-name="text" 
-id="text" /> 
 
+    <div class="contact-me-container">
+      <div class="form">
+        <form>
+          <label for="name"> Your Name </label>
+          <input type="text" id="name" name="name" placeholder="Your name" />
 
-        <input class="input-username-and-password" 
-        type="password" 
-        placeholder="Password" 
-        name="password"
-        id="password" />
-        
-            <div class="checkbox">
-            <input type="checkbox" name="checkbox" id="checkbox" />
-            <label for="checkbox">Check me out</label>
-        
-        </div>
-        <div class="submit">
-            <input type="submit" value="Submit" />
-        </div>
-    </form>
-</div>
+          <label for="email">Your Email Address</label>
+          <input type="text" id="email" name="email" placeholder="Your email" />
 
-    <!-- twitter -->
-        <div class="twitter">
-            <blockquote>
-              <a
-                class="twitter-timeline"
-                href="https://twitter.com/DannyField_"
-                data-tweet-limit="2"
-                >Tweets by</a
-              >
-              <script
-                async
-                src="//platform.twitter.com/widgets.js"
-                charset="utf-8"
-              ></script>
-            </blockquote>
-        </div>
+          <label for="subject">Your Message</label>
+          <textarea
+            id="subject"
+            name="subject"
+            placeholder="Write something please.."
+            style="height:300px"
+          ></textarea>
+
+          <input type="submit" value="Submit" />
+        </form>
+      </div>
+
+      <!-- twitter -->
+      <div class="twitter">
+        <blockquote>
+          <a
+            class="twitter-timeline"
+            href="https://twitter.com/DannyField_"
+            data-tweet-limit="2"
+            >Tweets by</a
+          >
+          <script
+            async
+            src="//platform.twitter.com/widgets.js"
+            charset="utf-8"
+          ></script>
+        </blockquote>
+      </div>
     </div>
-    </div>
-    
     <!-- end of about section -->
-    
+
     <!-- ////////////////////////////////////////////////////////////////////////////////// -->
 
-  <!-- lower FOOTER section -->
-  
-<div class="footer">
-  <div class="leftf">
-    <div class="logo">
-      <img src="/images/logo.png" width="150px" height="100px">
+    <!-- lower FOOTER section -->
+
+    <div class="footer">
+      <div class="leftf">
+        <div class="logo">
+          <img src="/images/logo.png" width="150px" height="100px" />
+        </div>
+      </div>
+
+      <div class="rightf">
+        <a href="https://github.com/DannyField"
+          ><img
+            src="/images/external_logos/github_0.png"
+            width="50px"
+            height="50px"
+          />
+        </a>
+        <a href="https://www.facebook.com/danny.field.productions"
+          ><img
+            src="/images/external_logos/facebook_0.png"
+            width="50px"
+            height="50px"
+            id="facebook"
+          />
+        </a>
+        <a href="https://twitter.com/DannyField_"
+          ><img
+            src="/images/external_logos/twitter_0.png"
+            width="50px"
+            height="50px"
+            id="twitter"
+          />
+        </a>
+        <a href="https://www.linkedin.com/in/dannyfield/"
+          ><img
+            src="/images/external_logos/linkedin_0.png"
+            width="50px"
+            height="50px"
+            id="linkedin"
+          />
+        </a>
+      </div>
     </div>
-  </div>
-
-  <div class="rightf">
-    <a href="https://github.com/DannyField"><img src="/images/external_logos/github_0.png" width="50px" height="50px">
-    </a>
-    <a href="https://www.facebook.com/danny.field.productions"><img src="/images/external_logos/facebook_0.png"
-        width="50px" height="50px" id="facebook">
-    </a>
-    <a href="https://twitter.com/DannyField_"><img src="/images/external_logos/twitter_0.png" width="50px" height="50px"
-        id="twitter">
-    </a>
-    <a href="https://www.linkedin.com/in/dannyfield/"><img src="/images/external_logos/linkedin_0.png" width="50px"
-        height="50px" id="linkedin">
-    </a>
-  </div>
-
-</div>
-  </div>
-
   </body>
 </html>

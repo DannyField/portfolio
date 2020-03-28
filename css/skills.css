@@ -1,0 +1,70 @@
+/* /////////////////////////////////////////////////////////////////////////////////// */
+/* about section */
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  width: 100vw;
+  height: 100vh;
+  background-color: #d7c892;
+}
+
+.skill-list {
+  background-color: #d7c892;
+  width: 65%;
+
+  height: 330px;
+  padding: 80px;
+  margin: 0px;
+  align-self: center;
+
+  /* margin: 100px;
+  padding: 100px; */
+  /* animation: slideIn 1s; */
+}
+
+/* @keyframes slideIn {
+  0% {
+    padding: 0;
+    margin: 0;
+  }
+
+  100% {
+    padding: 100px;
+    margin: 100px;
+  }
+} */
+
+.qr {
+  background-color: #d7c892;
+  width: 330px;
+  height: 330px;
+  margin: 0px;
+  align-self: center;
+}
+
+.skill-list p {
+  text-align: justify;
+  align-self: center;
+  font-size: 25px;
+  animation: fadeIn 2s;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+.skill-list:hover {
+  background-color: brown;
+}
+
+.qr:hover {
+  background-color: brown;
+}

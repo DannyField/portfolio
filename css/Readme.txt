@@ -15,3 +15,9 @@ Looks after the image in the 'about me' section
 
 nav-effects.css
 controls the little animation effect at the nav bar. Also possibly controls the overall fonts
+
+contact.css
+Looks after the contact page
+
+skills.css
+looks after the skills page

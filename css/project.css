@@ -8,7 +8,7 @@
   /* width: 100vw;
   height: 100vh; */
   /* background-color: pink; */
-  background-image: url(/images/junesleep.png);
+  background-image: url(/images/rabbits.png);
 }
 
 .skill-list {
@@ -43,35 +43,33 @@
 
 /* //////////////////////////////////////////////////////////////////////////////////////////// */
 /* highlight the skill sections */
-.webdev:hover {
+.miraitoriego:hover {
   background-color: brown;
 }
 
-.cinematography:hover {
+.strangers:hover {
   background-color: brown;
 }
 
-.gamedesign:hover {
+.darkestdays:hover {
   background-color: brown;
 }
 
-.soft:hover {
+.rabbits:hover {
   background-color: brown;
+}
+
+.conantur:hover {
+  background-color: brown;
+  .container {
+    background-color: green;
+  }
+}
+
+.strangers:hover ~ .container {
+  background-color: cyan;
 }
 
 /* //////////////////////////////////////////////////////////////////////////////////////// */
 
 /* //////////////////////////////////////////////////////////////////////////////// */
-/* originally wanted to use some animations, but was taking too long to work correctly */
-
-/* ANIMATIONS */
-
-/* @keyframes fadeIn {
-  0% {
-    opacity: 0;
-  }
-
-  100% {
-    opacity: 1;
-  }
-} */

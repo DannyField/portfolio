@@ -7,6 +7,7 @@
 @import url("https://fonts.googleapis.com/css?family=Titillium+Web:400,600");
 @import "./css/contact.css";
 @import "./css/skills.css";
+@import "./css/project.css";
 
 * {
   padding: 0;

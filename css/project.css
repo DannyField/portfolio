@@ -25,13 +25,13 @@
   padding: 100px; */
 }
 
-.qr {
+.image {
   /* background-color: #d7c892; */
   width: 330px;
   height: 330px;
-  margin: 0px;
-  padding: 50px;
-  align-self: center;
+  /* margin: 0px;
+  padding: 0px; */
+  /* align-self: center; */
 }
 
 .skill-list p {
@@ -61,9 +61,6 @@
 
 .conantur:hover {
   background-color: brown;
-  .container {
-    background-color: green;
-  }
 }
 
 .strangers:hover ~ .container {

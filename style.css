@@ -112,7 +112,9 @@ darker brown
   justify-content: space-evenly;
   text-align: justify;
   color: black;
-  background-color: #d7c892;
+  /* background-color: #d7c892; */
+  background: #d7c892;
+
   font-size: 1.5em;
 }
 

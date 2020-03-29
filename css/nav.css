@@ -15,7 +15,13 @@
   width: 100vw;
   height: 150px;
   /* background: cadetblue; */
-  background: #363635;
+  /* background: #363635; */
+  background: linear-gradient(0deg, #363635 0%, #141414 100%);
+
+  /* background: -moz-linear-gradient(-45deg, #d7c892 0%, #dd77cc 100%); */
+  /* background: -webkit-linear-gradient(-45deg, #d7c892 0%, #dd77cc 100%); */
+  /* background: linear-gradient(180deg, #d7c892 0%, #dd77cc 100%); */
+
   /* border of the lines around the grid */
   /* border: 1px solid black; */
 }
@@ -37,7 +43,7 @@
   font-size: 2em;
   /* background-color: cadetblue; */
   /* This must match the background */
-  background-color: #363635;
+  /* background-color: #363635; */
 }
 
 .links-top {

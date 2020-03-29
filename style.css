@@ -32,6 +32,10 @@ pink
 darker brown
 #846c5d */
 
+/* NEW COLORS
+
+090e17-f4e3f6-8b4162-202244-3b96ca */
+
 /* ///////////////////////////////////////////////////////////////////////////////////////// */
 
 /* FADE ACROSS IMAGE at the top of the screen */
@@ -46,7 +50,7 @@ darker brown
   grid-template-rows: 1fr;
   grid-template-columns: 1fr;
   width: 100vw;
-  height: 600px;
+  height: 729px;
 }
 
 .imagecontainer {
@@ -67,8 +71,9 @@ darker brown
 }
 
 .crossfade {
-  background: url(./images/top-danny-bw.png);
-  width: 100px;
+  background: url(./images/hand.png);
+  width: 100vw;
+  height: 729px;
   display: inline-block;
   font-size: 0;
   background-size: cover;
@@ -78,11 +83,11 @@ darker brown
   opacity: 0;
 }
 
-@media only screen and (min-width: 550px) {
+/* @media only screen and (min-width: 550px) {
   .imagecontainer img {
     width: 100%;
   }
-}
+} */
 
 /* /////////////////////////////////////////////////////////////////////////////////// */
 /* about section */

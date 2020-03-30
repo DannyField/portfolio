@@ -1,0 +1,68 @@
+/* /////////////////////////////////////////////////////////////////////////////////// */
+/* about section */
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  /* width: 100vw;
+  height: 100vh; */
+  /* background-color: pink; */
+  background-image: url(/images/junesleep.png);
+}
+
+.skill-list {
+  /* background-color: #d7c892; */
+  width: 50%;
+
+  /* height: 660px; */
+
+  padding: 200px;
+  margin: 0px;
+  align-self: center;
+
+  /* margin: 100px;
+  padding: 100px; */
+}
+
+.skill-list p {
+  text-align: justify;
+  align-self: center;
+  font-size: 25px;
+  /* animation: fadeIn 2s; */
+}
+
+/* //////////////////////////////////////////////////////////////////////////////////////////// */
+/* highlight the skill sections */
+.webdev:hover {
+  background-color: brown;
+}
+
+.cinematography:hover {
+  background-color: brown;
+}
+
+.gamedesign:hover {
+  background-color: brown;
+}
+
+.soft:hover {
+  background-color: brown;
+}
+
+/* //////////////////////////////////////////////////////////////////////////////////////// */
+
+/* //////////////////////////////////////////////////////////////////////////////// */
+/* originally wanted to use some animations, but was taking too long to work correctly */
+
+/* ANIMATIONS */
+
+/* @keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+} */

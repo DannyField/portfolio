@@ -1,68 +1,253 @@
-/* /////////////////////////////////////////////////////////////////////////////////// */
-/* about section */
+body {
+  margin: 0;
+  padding: 0;
+  background: #262626;
+}
 
-.container {
-  display: flex;
-  justify-content: center;
-  align-content: center;
-  /* width: 100vw;
-  height: 100vh; */
-  /* background-color: pink; */
+/* skill containers */
+
+.skill-container {
+  display: grid;
+  height: 600px;
+  width: 100vw;
+  background: #3b96ca;
   background-image: url(/images/junesleep.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  pointer-events: none;
+  grid-template-rows: 1fr;
+  grid-template-columns: 1fr 2fr;
 }
 
-.skill-list {
-  /* background-color: #d7c892; */
-  width: 50%;
-
-  /* height: 660px; */
-
-  padding: 200px;
-  margin: 0px;
-  align-self: center;
-
-  /* margin: 100px;
-  padding: 100px; */
-}
-
-.skill-list p {
+.webdev p {
+  margin: 0;
+  padding: 0;
   text-align: justify;
-  align-self: center;
-  font-size: 25px;
-  /* animation: fadeIn 2s; */
+  color: #f4e3f6;
 }
 
-/* //////////////////////////////////////////////////////////////////////////////////////////// */
-/* highlight the skill sections */
-.webdev:hover {
-  background-color: brown;
+.boxA {
+  /* position: absolute; */
+  grid-row: 1 / 2;
+  grid-column: 1 / 2;
+  top: 10%;
+  left: 20%;
+  transform: translate(20%, 30%);
+  width: 500px;
+  height: 300px;
+  pointer-events: auto;
 }
 
-.cinematography:hover {
-  background-color: brown;
+.skill-container:hover {
+  background-image: url();
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-.gamedesign:hover {
-  background-color: brown;
+/* //////////////LAYER 1//////////////////////////////////////////////////////// */
+
+.boxA .webdev {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 1px solid #f4e3f6;
+  padding: 20px;
+  box-sizing: border-box;
+  transition: 0.8s;
+  background: #202244;
+  z-index: 3;
+  overflow: hidden;
 }
 
-.soft:hover {
-  background-color: brown;
+.boxA:hover .webdev {
+  top: -10px;
+  left: 10px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 1);
 }
 
-/* //////////////////////////////////////////////////////////////////////////////////////// */
+.boxA .webdev:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -110%;
+  width: 100%;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.1);
+  pointer-events: none;
+  transition: 0.9s;
+  transform: skewX(-10deg);
+}
 
-/* //////////////////////////////////////////////////////////////////////////////// */
-/* originally wanted to use some animations, but was taking too long to work correctly */
+.boxA:hover .webdev:before {
+  left: -50%;
+}
 
-/* ANIMATIONS */
+/* //////////////////////////LAYER 2 ///////////////////////////// */
 
-/* @keyframes fadeIn {
-  0% {
-    opacity: 0;
-  }
+.boxA .webdev2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 1px solid black;
+  box-sizing: border-box;
+  transition: 1s;
+  background: #262626;
+  z-index: 2;
+}
 
-  100% {
-    opacity: 1;
-  }
-} */
+.boxA:hover .webdev2 {
+  top: 0px;
+  left: 0px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 1);
+}
+
+/* ///////////////////////////////LAYER 3///////////////////////////////////// */
+
+.boxA .webdev3 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 1px solid black;
+  box-sizing: border-box;
+  transition: 0.4s;
+  background: #262626;
+  z-index: 1;
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 1);
+}
+
+.boxA:hover .webdev3 {
+  top: 10px;
+  left: -10px;
+}
+
+/* ////////////////////////////////////////////////////////// */
+/* /////////////////////////////////////////////////////////////////////////////////////// */
+/* film containers */
+
+.film-container {
+  display: grid;
+  height: 600px;
+  width: 100vw;
+  background: #3b96ca;
+  background-image: url(/JESSIEPSYCHEIMAGE);
+  background-repeat: no-repeat;
+  background-size: cover;
+  pointer-events: none;
+  grid-template-rows: 1fr;
+  grid-template-columns: 1fr 2fr;
+}
+
+.film p {
+  margin: 0;
+  padding: 0;
+  text-align: justify;
+  color: #f4e3f6;
+}
+
+.boxB {
+  /* position: absolute; */
+  grid-row: 1 / 2;
+  grid-column: 1 / 2;
+  top: 10%;
+  left: 20%;
+  transform: translate(20%, 30%);
+  width: 500px;
+  height: 300px;
+  pointer-events: auto;
+}
+
+.film-container:hover {
+  background-image: url();
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* //////////////LAYER 1//////////////////////////////////////////////////////// */
+
+.boxB .film {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 1px solid #f4e3f6;
+  padding: 20px;
+  box-sizing: border-box;
+  transition: 0.8s;
+  background: #202244;
+  z-index: 3;
+  overflow: hidden;
+}
+
+.boxB:hover .film {
+  top: -10px;
+  left: 10px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 1);
+}
+
+.boxB .film:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -110%;
+  width: 100%;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.1);
+  pointer-events: none;
+  transition: 0.9s;
+  transform: skewX(-10deg);
+}
+
+.boxB:hover .film:before {
+  left: -50%;
+}
+
+/* //////////////////////////LAYER 2 ///////////////////////////// */
+
+.boxB .film2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 1px solid black;
+  box-sizing: border-box;
+  transition: 1s;
+  background: #262626;
+  z-index: 2;
+}
+
+.boxB:hover .film2 {
+  top: 0px;
+  left: 0px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 1);
+}
+
+/* ///////////////////////////////LAYER 3///////////////////////////////////// */
+
+.boxB .film3 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 1px solid black;
+  box-sizing: border-box;
+  transition: 0.4s;
+  background: #262626;
+  z-index: 1;
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 1);
+}
+
+.boxB:hover .film3 {
+  top: 10px;
+  left: -10px;
+}
+
+/* ////////////////////////////////////////////////////////// */

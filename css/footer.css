@@ -43,3 +43,14 @@
 
 /* //////////////////////////////////////////////////////////////////////////////////// */
 /* //////////////////////////////////////////////////////////////// */
+
+#github {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  background: url("/images/external_logos/github_0.png");
+}
+
+#github:hover {
+  background: url("/images/external_logos/github_1.png");
+}

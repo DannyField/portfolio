@@ -1,17 +1,19 @@
 /* hover effects on sep style sheet */
 
+/* originally brown color */
+
 .links-top:hover {
-  background-color: brown;
+  background-color: #3b96ca;
 }
 
 .contact:hover {
-  background-color: brown;
+  background-color: #3b96ca;
 }
 
 .skills:hover {
-  background-color: brown;
+  background-color: #3b96ca;
 }
 
 .info:hover {
-  background-color: brown;
+  background-color: #3b96ca;
 }

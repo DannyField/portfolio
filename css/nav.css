@@ -1,6 +1,8 @@
 /* /////////////////////////////////////////////////////////////////////////////////////// */
 /* start */
 
+/* to change the font colors go to nav-effects.css */
+
 .nav {
   /* must have the display set to grid to show */
   /* building the grid lines inside */
@@ -16,7 +18,7 @@
   height: 150px;
   /* background: cadetblue; */
   /* background: #363635; */
-  background: linear-gradient(0deg, #363635 0%, #141414 100%);
+  background: linear-gradient(0deg, #090e17 0%, #0b0318 100%);
 
   /* background: -moz-linear-gradient(-45deg, #d7c892 0%, #dd77cc 100%); */
   /* background: -webkit-linear-gradient(-45deg, #d7c892 0%, #dd77cc 100%); */
@@ -37,9 +39,6 @@
   grid-row: 2 / 3;
   grid-column: 1 / 2;
 
-  /* font color */
-  color: black;
-  /* font-family: "B612", sans-serif; */
   font-size: 2em;
   /* background-color: cadetblue; */
   /* This must match the background */
@@ -57,17 +56,22 @@
 
   border: 1px solid black;
   /* color: bisque; */
-  background-color: #d7c892;
+  /* background-color: #d7c892; */
+  background-color: #202244;
   font-family: sans-serif;
+
+  /* this does a nice outline around the borders... But i feel it's too close to everything */
+  /* outline: groove;
+  outline-color: #8b4162; */
 }
 
 .links-top a {
   /* color: white; */
+
   text-decoration: none;
 }
 
 .contact a {
-  /* color: white; */
   text-decoration: none;
 }
 
@@ -79,7 +83,12 @@
   grid-column: 4 / 5;
   border: 1px solid black;
   color: bisque;
-  background-color: #d7c892;
+  /* background-color: #d7c892; */
+  background-color: #202244;
+
+  /* this does a nice outline around the borders... But i feel it's too close to everything */
+  /* outline: groove;
+  outline-color: #8b4162; */
 }
 
 /* end of top nav bar section */

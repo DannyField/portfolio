@@ -1,7 +1,7 @@
 /* ////////////////////////////////////////////////////////////////////////////////// */
 /* cool slider pure css hover */
 
-.fond {
+.box-photo {
   top: 0;
   left: 0;
   right: 0;
@@ -16,7 +16,7 @@
   overflow: hidden;
   position: relative;
 }
-.box_light .shadow_swhow_mini {
+.box_light .shadow_image {
   background-color: rgba(19, 30, 33, 0.4);
   position: absolute;
   z-index: 1000;
@@ -25,12 +25,14 @@
   right: 0;
   bottom: 0;
 }
-.box_light:hover .shadow_swhow_mini {
+.box_light:hover .shadow_image {
   background-color: rgba(16, 23, 41, 0);
+  background-image: url(/images/danny-inset.png);
+  background-repeat: no-repeat;
 }
 
 /* deals with the left side */
-.box_light .deroul_titre {
+.box_light .first-title {
   position: absolute;
   text-transform: uppercase;
   font-family: "Roboto";
@@ -49,20 +51,20 @@
 }
 
 /* text from the left side */
-.box_light:hover .deroul_titre {
+.box_light:hover .first-title {
   background-color: #1e4944;
   left: 0px;
 }
 
 /* deals with the right side */
-.box_light .deroul_soustitre {
+.box_light .second-title {
   position: absolute;
   font-family: "Roboto";
   padding: 5px;
   z-index: 1000;
   top: 60%;
   right: -85%;
-  margin-top: 55px;
+  margin-top: 35px;
   color: #ffffff;
   font-weight: 300;
   font-size: 11px;
@@ -74,7 +76,7 @@
 }
 
 /* text from the right side */
-.box_light:hover .deroul_soustitre {
-  background-color: #417c74;
+.box_light:hover .second-title {
   right: 0px;
+  background-color: #417c74;
 }

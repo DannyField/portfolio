@@ -21,8 +21,13 @@
 
 .nav a {
   padding: 0.5em 0.8em;
+
   /* color of the font */
-  color: black;
+  color: #f4e3f6;
+
+  /* adds a stroke around the font so that it reads better for the audience */
+  -webkit-text-stroke-color: #090e17;
+  -webkit-text-stroke-width: 0.5px;
 
   /* color: rgba(255, 255, 255, 0.5); */
   position: relative;
@@ -44,8 +49,8 @@
   content: "";
   right: 0;
   top: 0;
-  border-top: 3px solid black;
-  border-right: 3px solid black;
+  border-top: 3px solid #8b4162;
+  border-right: 3px solid #8b4162;
   transform: translate(-100%, 50%);
 }
 
@@ -53,8 +58,8 @@
   content: "";
   left: 0;
   bottom: 0;
-  border-bottom: 3px solid black;
-  border-left: 3px solid black;
+  border-bottom: 3px solid #8b4162;
+  border-left: 3px solid #8b4162;
   transform: translate(100%, -50%);
 }
 
@@ -65,7 +70,7 @@
 }
 
 .nav a:hover {
-  color: black;
+  color: #8b4162;
   font-size: 24px;
 }
 

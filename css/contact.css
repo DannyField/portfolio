@@ -4,6 +4,15 @@
   background: #262626;
 } */
 
+.qr {
+  /* background-color: #d7c892; */
+  width: 260px;
+  height: 260px;
+  margin: 0px;
+  padding: 10px;
+  align-self: center;
+}
+
 /* parent */
 .container-email {
   /* display: grid; */

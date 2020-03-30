@@ -1,5 +1,4 @@
 /* ////////////////////////////////////////////////////////////////////////////////// */
-/* cool slider pure css hover */
 
 .box-photo {
   top: 0;
@@ -40,7 +39,7 @@
   z-index: 1000;
   top: 60%;
   left: -80%;
-  color: #ffffff;
+  color: #f4e3f6;
   font-weight: 300;
   font-size: 13px;
   width: 80%;
@@ -52,7 +51,7 @@
 
 /* text from the left side */
 .box_light:hover .first-title {
-  background-color: #1e4944;
+  background-color: #8b4162;
   left: 0px;
 }
 
@@ -65,7 +64,7 @@
   top: 60%;
   right: -85%;
   margin-top: 35px;
-  color: #ffffff;
+  color: #f4e3f6;
   font-weight: 300;
   font-size: 11px;
   width: 80%;
@@ -78,5 +77,5 @@
 /* text from the right side */
 .box_light:hover .second-title {
   right: 0px;
-  background-color: #417c74;
+  background-color: #8b4162;
 }

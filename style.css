@@ -8,6 +8,7 @@
 @import "./css/contact.css";
 @import "./css/skills.css";
 @import "./css/project.css";
+@import "./css/blog-style.css";
 
 * {
   padding: 0;
@@ -15,30 +16,6 @@
   box-sizing: border-box;
   font-family: "Titillium Web";
 }
-
-/* colour platee
-/*  https://artsexperiments.withgoogle.com/artpalette/colors/d7c892-363635-0ca7d2-d38281-846c5d */
-
-/* 
-
-light brown
-#d7c892 
-grey
-#363635
-blue
-#0ca7d2
-pink
-#d38281
-darker brown
-#846c5d */
-
-/* NEW COLORS
-
-#090e17
-#f4e3f6
-#8b4162
-#202244
-#3b96ca */
 
 /* ///////////////////////////////////////////////////////////////////////////////////////// */
 
@@ -87,11 +64,11 @@ darker brown
   opacity: 0;
 }
 
-/* @media only screen and (min-width: 550px) {
+@media only screen and (min-width: 550px) {
   .imagecontainer img {
     width: 100%;
   }
-} */
+}
 
 /* /////////////////////////////////////////////////////////////////////////////////// */
 /* about section */
@@ -122,18 +99,13 @@ darker brown
   text-align: justify;
   color: #f4e3f6;
 
+  /* adds a stroke around the font so that it reads better for the audience */
+  /* -webkit-text-stroke-color: #090e17;
+  -webkit-text-stroke-width: 0.3px; */
+  /* stroke here makes it hard on the eyes... maybe not on */
+
   /* background-color: #d7c892; */
-  /* background: #d7c892; */
-
   background: #202244;
-
-  /* color back plate - dark */
-  /* #090e17 */
-
-  /* blue  #3b96ca */
-
-  /* swap purple #8b4162 */
-
   font-size: 1.5em;
 }
 

@@ -1,3 +1,126 @@
+.contact-me-container {
+  /* must have the display set to grid to show */
+  /* building the grid lines inside */
+  /* display: grid; */
+  /* grid-template-rows: 1fr;
+  grid-template-columns: 1fr 1fr; */
+  /* padding: 10px; */
+  /* the sie of the grid and the content inside */
+  /* width: 100vw;
+  height: 100px; */
+
+  background-color: #3b96ca;
+  /* background: url(/images/contact-img.png);
+  background-size: cover; */
+
+  /* for testing purposes */
+  /* background: #363635; */
+  /* background: white; */
+  /* border of the lines around the grid */
+  /* border: 1px solid black; */
+
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.contact-me-container img {
+  position: fixed;
+}
+/* //////////////////////// */
+
+/* Style inputs with type="text", select elements and textareas */
+input[type="text"],
+select,
+textarea {
+  width: 100%; /* Full width */
+  padding: 16px; /* Some padding */
+  border: 1px solid black;
+  border-radius: 4px;
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical; /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type="submit"] {
+  background-color: #8b4162;
+  color: white;
+  padding: 12px 20px;
+  border: 1px solid black;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* hover over mouse will change slight color */
+input[type="submit"]:hover {
+  background-color: #5d2740;
+}
+
+/* /////////////////////////// */
+.form {
+  /* grid-row: 1 / 2;
+  grid-column: 2 / 3; */
+  /* border: 1px solid black; */
+  /* padding: 100px; */
+  color: black;
+
+  /* background-color: brown; */
+}
+
+.twitter {
+  /* grid-row: 1 / 2;
+  grid-column: 1 / 2; */
+  /* border: 1px solid black; */
+  width: 400px;
+  height: 650px;
+  margin-top: 80px;
+  /* background-color: brown; */
+}
+
+/* ////////////////////////////////////////////////////////////////////////////////// */
+
+/* twitter */
+
+/* move to another style sheet */
+
+blockquote.twitter-tweet {
+  display: inline-block;
+  font-family: "Helvetica Neue", Roboto, "Segoe UI", Calibri, sans-serif;
+  font-size: 12px;
+  font-weight: bold;
+  line-height: 16px;
+  border-color: #eee #ddd #bbb;
+  border-radius: 5px;
+  border-style: solid;
+  border-width: 1px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15);
+  margin: 10px 5px;
+  padding: 0 16px 16px 16px;
+  max-width: 368px;
+}
+
+blockquote.twitter-tweet p {
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 20px;
+}
+
+blockquote.twitter-tweet a {
+  color: inherit;
+  font-weight: normal;
+  text-decoration: none;
+  outline: 0 none;
+}
+
+blockquote.twitter-tweet a:hover,
+blockquote.twitter-tweet a:focus {
+  text-decoration: underline;
+}
+
+/* //////////////////////////////////////// */
+
 body {
   margin: 0;
   padding: 0;

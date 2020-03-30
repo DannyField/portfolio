@@ -9,6 +9,8 @@
 @import "./css/skills.css";
 @import "./css/project.css";
 @import "./css/blog-style.css";
+@import "./css/project.css";
+@import "./css/film.css";
 
 * {
   padding: 0;

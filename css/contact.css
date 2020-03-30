@@ -45,7 +45,7 @@ textarea {
 
 /* Style the submit button with a specific background color etc */
 input[type="submit"] {
-  background-color: #4caf50;
+  background-color: #8b4162;
   color: white;
   padding: 12px 20px;
   border: 1px solid black;
@@ -55,7 +55,7 @@ input[type="submit"] {
 
 /* hover over mouse will change slight color */
 input[type="submit"]:hover {
-  background-color: #45a049;
+  background-color: #5d2740;
 }
 
 /* /////////////////////////// */

@@ -1,0 +1,72 @@
+/* /////////////////////////////////////////////////////////////////////////////////// */
+/* about section */
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  /* width: 100vw;
+  height: 100vh; */
+  /* background-color: pink; */
+  background-image: url(/images/rabbits.png);
+}
+
+.skill-list {
+  /* background-color: #d7c892; */
+  width: 50%;
+
+  /* height: 660px; */
+
+  padding: 200px;
+  margin: 0px;
+  align-self: center;
+
+  /* margin: 100px;
+  padding: 100px; */
+}
+
+.image {
+  /* background-color: #d7c892; */
+  width: 330px;
+  height: 330px;
+  /* margin: 0px;
+  padding: 0px; */
+  /* align-self: center; */
+}
+
+.skill-list p {
+  text-align: justify;
+  align-self: center;
+  font-size: 25px;
+  /* animation: fadeIn 2s; */
+}
+
+/* //////////////////////////////////////////////////////////////////////////////////////////// */
+/* highlight the skill sections */
+.miraitoriego:hover {
+  background-color: brown;
+}
+
+.strangers:hover {
+  background-color: brown;
+}
+
+.darkestdays:hover {
+  background-color: brown;
+}
+
+.rabbits:hover {
+  background-color: brown;
+}
+
+.conantur:hover {
+  background-color: brown;
+}
+
+.strangers:hover ~ .container {
+  background-color: cyan;
+}
+
+/* //////////////////////////////////////////////////////////////////////////////////////// */
+
+/* //////////////////////////////////////////////////////////////////////////////// */

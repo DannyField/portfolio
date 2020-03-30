@@ -4,9 +4,13 @@ body {
   background: #262626;
 }
 
+.h1 {
+  font: #f4e3f6;
+}
+
 /* skill containers */
 
-.skill-container {
+.web-container {
   display: grid;
   height: 600px;
   width: 100vw;
@@ -38,7 +42,7 @@ body {
   pointer-events: auto;
 }
 
-.skill-container:hover {
+.web-container:hover {
   background-image: url();
   background-repeat: no-repeat;
   background-size: cover;
@@ -251,3 +255,255 @@ body {
 }
 
 /* ////////////////////////////////////////////////////////// */
+
+/* skill containers */
+
+.game-container {
+  display: grid;
+  height: 600px;
+  width: 100vw;
+  background: #3b96ca;
+  background-image: url(/);
+  background-repeat: no-repeat;
+  background-size: cover;
+  pointer-events: none;
+  grid-template-rows: 1fr;
+  grid-template-columns: 1fr 2fr;
+}
+
+.game-container:hover {
+  background-image: url();
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.game p {
+  margin: 0;
+  padding: 0;
+  text-align: justify;
+  color: #f4e3f6;
+}
+
+.boxC {
+  /* position: absolute; */
+  grid-row: 1 / 2;
+  grid-column: 1 / 2;
+  top: 10%;
+  left: 20%;
+  transform: translate(20%, 30%);
+  width: 500px;
+  height: 300px;
+  pointer-events: auto;
+}
+
+/* //////////////LAYER 1//////////////////////////////////////////////////////// */
+
+.boxC .game {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 1px solid #f4e3f6;
+  padding: 20px;
+  box-sizing: border-box;
+  transition: 0.8s;
+  background: #202244;
+  z-index: 3;
+  overflow: hidden;
+}
+
+.boxC:hover .game {
+  top: -10px;
+  left: 10px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 1);
+}
+
+.boxC .game:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -110%;
+  width: 100%;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.1);
+  pointer-events: none;
+  transition: 0.9s;
+  transform: skewX(-10deg);
+}
+
+.boxC:hover .game:before {
+  left: -50%;
+}
+
+/* //////////////////////////LAYER 2 ///////////////////////////// */
+
+.boxC .game2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 1px solid black;
+  box-sizing: border-box;
+  transition: 1s;
+  background: #262626;
+  z-index: 2;
+}
+
+.boxC:hover .game2 {
+  top: 0px;
+  left: 0px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 1);
+}
+
+/* ///////////////////////////////LAYER 3///////////////////////////////////// */
+
+.boxC .game3 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 1px solid black;
+  box-sizing: border-box;
+  transition: 0.4s;
+  background: #262626;
+  z-index: 1;
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 1);
+}
+
+.boxC:hover .game3 {
+  top: 10px;
+  left: -10px;
+}
+
+/* ////////////////////////////////////////////////////////// */
+/* /////////////////////////////////////////////////////////////////////////////////////// */
+
+/* ////////////////////////////////////////////////////////// */
+
+/* skill containers */
+
+.soft-container {
+  display: grid;
+  height: 600px;
+  width: 100vw;
+  background: #3b96ca;
+  background-image: url(/);
+  background-repeat: no-repeat;
+  background-size: cover;
+  pointer-events: none;
+  grid-template-rows: 1fr;
+  grid-template-columns: 1fr 2fr;
+}
+
+.soft p {
+  margin: 0;
+  padding: 0;
+  text-align: justify;
+  color: #f4e3f6;
+}
+
+.boxD {
+  /* position: absolute; */
+  grid-row: 1 / 2;
+  grid-column: 1 / 2;
+  top: 10%;
+  left: 20%;
+  transform: translate(20%, 30%);
+  width: 500px;
+  height: 300px;
+  pointer-events: auto;
+}
+
+.soft-container:hover {
+  background-image: url();
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* //////////////LAYER 1//////////////////////////////////////////////////////// */
+
+.boxD .soft {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 1px solid #f4e3f6;
+  padding: 20px;
+  box-sizing: border-box;
+  transition: 0.8s;
+  background: #202244;
+  z-index: 3;
+  overflow: hidden;
+}
+
+.boxD:hover .soft {
+  top: -10px;
+  left: 10px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 1);
+}
+
+.boxD .soft:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -110%;
+  width: 100%;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.1);
+  pointer-events: none;
+  transition: 0.9s;
+  transform: skewX(-10deg);
+}
+
+.boxD:hover .soft:before {
+  left: -50%;
+}
+
+/* //////////////////////////LAYER 2 ///////////////////////////// */
+
+.boxD .soft2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 1px solid black;
+  box-sizing: border-box;
+  transition: 1s;
+  background: #262626;
+  z-index: 2;
+}
+
+.boxD:hover .soft2 {
+  top: 0px;
+  left: 0px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 1);
+}
+
+/* ///////////////////////////////LAYER 3///////////////////////////////////// */
+
+.boxD .soft3 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 1px solid black;
+  box-sizing: border-box;
+  transition: 0.4s;
+  background: #262626;
+  z-index: 1;
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 1);
+}
+
+.boxD:hover .soft3 {
+  top: 10px;
+  left: -10px;
+}
+
+/* ////////////////////////////////////////////////////////// */
+/* /////////////////////////////////////////////////////////////////////////////////////// */

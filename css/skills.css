@@ -4,8 +4,13 @@ body {
   background: #262626;
 }
 
-.h1 {
-  font: #f4e3f6;
+h1 {
+  color: #f4e3f6;
+}
+
+ul {
+  padding: 15px;
+  color: #f4e3f6;
 }
 
 /* skill containers */
@@ -139,7 +144,7 @@ body {
   height: 600px;
   width: 100vw;
   background: #3b96ca;
-  background-image: url(/JESSIEPSYCHEIMAGE);
+  background-image: url(/images/skills/Psyche.png);
   background-repeat: no-repeat;
   background-size: cover;
   pointer-events: none;
@@ -167,7 +172,7 @@ body {
 }
 
 .film-container:hover {
-  background-image: url();
+  background-image: url(/images/skills/Rabbits4.png);
   background-repeat: no-repeat;
   background-size: cover;
 }

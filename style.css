@@ -124,20 +124,66 @@
 
 /* media query and getting it to resize for phone devices */
 
-@media all and (max-width: 810px) {
-  .nav .logo .links-top .contact {
+@media all and (max-width: 850px) {
+  .nav {
     display: flex;
+    /* flex-wrap: wrap; */
+    flex-direction: column;
+    justify-content: space-evenly;
     /* width: 100vw; */
+    height: 250px;
+  }
+
+  .logo {
+    align-self: center;
+  }
+
+  .about-section {
+    display: flex;
     flex-wrap: wrap;
     flex-direction: column;
+    justify-content: space-evenly;
+    position: relative;
+    font-size: 12px;
   }
 
-  .container-height {
-    height: fit-content;
-    width: fit-content;
+  .skills {
+    padding-bottom: 50px;
   }
 
-  .crossfade {
-    background-image: url(/images/junesleep.png);
+  .slider {
+  }
+
+  .slider .slide .content p {
+    font-size: 12px;
+  }
+}
+
+@media all and (max-width: 500px) {
+  .nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 250px;
+  }
+
+  .nav a {
+    font-size: 12px;
+  }
+
+  .logo {
+    align-self: center;
+  }
+
+  .footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 250px;
+  }
+
+  .leftf {
+    justify-content: center;
+    padding-top: 50px;
   }
 }

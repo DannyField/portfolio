@@ -33,7 +33,9 @@
   grid-template-rows: 1fr;
   grid-template-columns: 1fr;
   width: 100vw;
-  height: 929px;
+  /* height: 100vh; */
+  /* height: 929px; */
+  background-size: cover;
 }
 
 .imagecontainer {
@@ -56,7 +58,8 @@
 .crossfade {
   background: url(./images/hand.png);
   width: 100vw;
-  height: 929px;
+  /* height: 929px; */
+  /* height: 100vh; */
   display: inline-block;
   font-size: 0;
   background-size: cover;
@@ -118,3 +121,23 @@
 /* end of about section */
 
 /* ////////////////////////////////////////////////////////////////////////////////// */
+
+/* media query and getting it to resize for phone devices */
+
+@media all and (max-width: 810px) {
+  .nav .logo .links-top .contact {
+    display: flex;
+    /* width: 100vw; */
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+
+  .container-height {
+    height: fit-content;
+    width: fit-content;
+  }
+
+  .crossfade {
+    background-image: url(/images/junesleep.png);
+  }
+}

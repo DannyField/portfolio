@@ -20,7 +20,7 @@ ul {
   height: 600px;
   width: 100vw;
   background: #3b96ca;
-  background-image: url(/images/junesleep.png);
+  background-image: url(/images/skills/code.png);
   background-repeat: no-repeat;
   background-size: cover;
   pointer-events: none;
@@ -48,7 +48,7 @@ ul {
 }
 
 .web-container:hover {
-  background-image: url();
+  background-image: url(/images/skills/html.png);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -268,7 +268,7 @@ ul {
   height: 600px;
   width: 100vw;
   background: #3b96ca;
-  background-image: url(/);
+  background-image: url(/images/skills/xbox.png);
   background-repeat: no-repeat;
   background-size: cover;
   pointer-events: none;
@@ -277,7 +277,7 @@ ul {
 }
 
 .game-container:hover {
-  background-image: url();
+  background-image: url(/images/skills/game.png);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -395,12 +395,18 @@ ul {
   height: 600px;
   width: 100vw;
   background: #3b96ca;
-  background-image: url(/);
+  background-image: url(/images/skills/hand.png);
   background-repeat: no-repeat;
   background-size: cover;
   pointer-events: none;
   grid-template-rows: 1fr;
   grid-template-columns: 1fr 2fr;
+}
+
+.soft-container:hover {
+  background-image: url(/images/skills/mixer.png);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .soft p {
@@ -420,12 +426,6 @@ ul {
   width: 500px;
   height: 300px;
   pointer-events: auto;
-}
-
-.soft-container:hover {
-  background-image: url();
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 
 /* //////////////LAYER 1//////////////////////////////////////////////////////// */

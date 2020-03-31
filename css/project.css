@@ -6,7 +6,7 @@ body {
 
 .container-code {
   display: grid;
-  height: 100vh;
+  height: 700px;
   width: 100vw;
   background: #3b96ca;
   background-image: url(/images/top-danny-bw.png);
@@ -36,9 +36,9 @@ body {
   pointer-events: auto;
 }
 
-.container-test:hover {
+.container-code:hover {
   transition: ease-in;
-  background-image: url(/images/rabbits.png);
+  background-image: url(/images/top-danny.png);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -62,6 +62,7 @@ body {
   top: -10px;
   left: 10px;
   box-shadow: 0 5px 20px rgba(0, 0, 0, 1);
+  background: #3b96ca;
 }
 
 .box .layer1:before {
@@ -136,22 +137,11 @@ body {
   grid-column: 2 / 3;
   top: 10%;
   left: 20%;
-  transform: translate(120%, 30%);
+  transform: translate(120%, 10%);
   width: 500px;
   height: 600px;
   pointer-events: auto;
 }
-
-.box:hover + .box-right {
-  background: seagreen;
-}
-
-/* .container-test:hover {
-  transition: ease-in;
-  background-image: url(/images/rabbits.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-} */
 
 .box-right .layer1-right {
   position: absolute;
@@ -172,6 +162,7 @@ body {
   top: -10px;
   left: 10px;
   box-shadow: 0 5px 20px rgba(0, 0, 0, 1);
+  background: #3b96ca;
 }
 
 .box-right .layer1-right:before {

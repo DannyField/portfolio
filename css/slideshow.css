@@ -14,16 +14,16 @@
   border-right: 1px solid black;
   transition: all 0.5s ease-in-out;
   overflow: hidden;
-  /* background: brown; */
-  background: linear-gradient(0, 0, 0, 0.9), rgba(165, 42, 42, 0.5);
-  opacity: 0.5;
+  background: linear-gradient(32, 34, 68, 0.9), rgba(32, 34, 68, 0.5);
+  background: brown;
+  opacity: 0.1;
   /* filter: blur(5px); */
 }
 
 /* this will make the width of the selected boxes wider */
 .slider .slide:hover {
   flex-grow: 10;
-  background: black;
+  background: #f4e3f6;
   opacity: 1;
   /* filter: blur(0px); */
 }
@@ -42,9 +42,9 @@
   border-radius: 20px;
 
   /* background-color: rgba(0, 0, 0, 0.7); */
-  background-color: rgba(165, 42, 42, 0.7);
+  background-color: rgba(32, 34, 68, 0.7);
   /* font color for the pop ups*/
-  color: black;
+  color: #f4e3f6;
   visibility: none;
   opacity: 0;
   transform: translateY(100px);
@@ -68,7 +68,7 @@
 /* images go below on seperate nth-childs */
 /* images must be saved in slide folder and background-image must be written */
 .slider .slide:nth-child(1) {
-  background-image: url("/images/slide/DD1.jpg");
+  background-image: url("/images/slide/DD3.png");
   background-position: center center;
   background-size: cover;
 }
@@ -79,12 +79,12 @@
   background-size: cover;
 }
 .slider .slide:nth-child(3) {
-  background: url("/images/slide/MTG2.png");
+  background: url("/images/slide/MTG0.png");
   background-position: center center;
   background-size: cover;
 }
 .slider .slide:nth-child(4) {
-  background: url("/images/slide/Strangers2.png");
+  background: url("/images/slide/Strangers.png");
   background-position: center center;
   background-size: cover;
 }

@@ -28,7 +28,7 @@ So originally I had set out to create a similar design.
 
 After my mock up I had the following:
 
-![1stVersion](./docs/features/V1.png) Eventually I tested various shades of colors, and settled on
+![1stVersion](./docs/features/v1.png) Eventually I tested various shades of colors, and settled on
 
     <!-- light brown -->
     #d7c892

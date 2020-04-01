@@ -1,7 +1,7 @@
 body {
   margin: 0;
   padding: 0;
-  background: #7e1f37;
+  background: #262626;
 }
 
 h1 {
@@ -19,7 +19,7 @@ ul {
   display: grid;
   height: 600px;
   width: 100vw;
-  background: #0e3843;
+  background: #3b96ca;
   background-image: url(/images/skills/code.png);
   background-repeat: no-repeat;
   background-size: cover;
@@ -65,7 +65,7 @@ ul {
   padding: 20px;
   box-sizing: border-box;
   transition: 0.8s;
-  background: #006d50;
+  background: #202244;
   z-index: 3;
   overflow: hidden;
 }
@@ -143,7 +143,7 @@ ul {
   display: grid;
   height: 600px;
   width: 100vw;
-  background: #0e3843;
+  background: #3b96ca;
   background-image: url(/images/skills/Psyche.png);
   background-repeat: no-repeat;
   background-size: cover;
@@ -189,7 +189,7 @@ ul {
   padding: 20px;
   box-sizing: border-box;
   transition: 0.8s;
-  background: #006d50;
+  background: #202244;
   z-index: 3;
   overflow: hidden;
 }
@@ -316,7 +316,7 @@ a {
   padding: 20px;
   box-sizing: border-box;
   transition: 0.8s;
-  background: #006d50;
+  background: #202244;
   z-index: 3;
   overflow: hidden;
 }
@@ -443,7 +443,7 @@ a {
   padding: 20px;
   box-sizing: border-box;
   transition: 0.8s;
-  background: #006d50;
+  background: #202244;
   z-index: 3;
   overflow: hidden;
 }

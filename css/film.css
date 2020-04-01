@@ -4,11 +4,11 @@ body {
   background: #262626;
 }
 
-.container-test {
+.container-film {
   display: grid;
   height: 700px;
   width: 100vw;
-  background: #3b96ca;
+  background: #090e17;
   background-image: url(/images/junesleep.png);
   background-repeat: no-repeat;
   background-size: cover;
@@ -36,7 +36,7 @@ body {
   pointer-events: auto;
 }
 
-.container-test:hover {
+.container-film:hover {
   background-image: url(/images/rabbits.png);
   background-repeat: no-repeat;
   background-size: cover;
@@ -126,3 +126,58 @@ body {
 }
 
 /* ////////////////////////////////////////////////////////// */
+
+/* I went with 850px as originally my nav bar was causing issues, so 850 was chosen */
+/* for the nav bar and footer there are smaller config though */
+@media all and (max-width: 850px) {
+  .container-film {
+    /* flex wasn't working as it should - so muted at the moment */
+    /* display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    align-content: flex-start; */
+
+    padding: 0;
+    margin: 0;
+    background-repeat: no-repeat;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    background-image: url(/images/junesleep.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    /* this is affecting the container size not the children */
+    width: 100vw;
+    height: 300px;
+  }
+
+  .box a {
+    font-size: 8px;
+  }
+
+  .box {
+    /* grid-column: 1 / 2;
+    grid-row: 1 / 2; */
+    justify-content: center;
+
+    /* I don't think this is doing much */
+    /* align-self: flex-start; */
+
+    top: 0%;
+    left: 0%;
+    width: 150px;
+    height: 150px;
+    pointer-events: auto;
+  }
+
+  .layer1-right li {
+    /* for some reason this line makes the text fit within the box */
+    margin-top: -1px;
+  }
+
+  .container-film:hover {
+    background-image: url(/images/rabbits.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+}

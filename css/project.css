@@ -256,7 +256,7 @@ body {
     width: 200px;
 
     /* this doesn't change the color as that parameter isn't in the box right setting */
-    color: red;
+    /* color: red; */
 
     grid-column: 1 / 2;
     grid-row: 2 / 3;

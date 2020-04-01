@@ -35,7 +35,6 @@
 .blog-box_light .blog-first-title {
   position: absolute;
   text-transform: uppercase;
-  font-family: "Roboto";
   padding: 7px;
   z-index: 1000;
   top: 60%;
@@ -59,7 +58,6 @@
 /* deals with the right side */
 .blog-box_light .blog-second-title {
   position: absolute;
-  font-family: "Roboto";
   padding: 5px;
   z-index: 1000;
   top: 60%;

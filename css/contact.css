@@ -219,9 +219,6 @@ input[type="submit"]:hover {
   transition: 0.8s;
   background: #202244;
   z-index: 3;
-  /* overflow: hidden; */
-
-  background: tomato;
   padding: 5px;
   width: 800px;
   height: 800px;
@@ -293,6 +290,7 @@ input[type="submit"]:hover {
 /* ////////////////////////////////////////////////////////////////////////////////// */
 
 /* twitter */
+/* from twitter own api dev website */
 
 blockquote.twitter-tweet {
   display: inline-block;
@@ -329,3 +327,58 @@ blockquote.twitter-tweet a:focus {
 }
 
 /* //////////////////////////////////////// */
+
+/* I went with 850px as originally my nav bar was causing issues, so 850 was chosen */
+/* for the nav bar and footer there are smaller config though */
+@media all and (max-width: 850px) {
+  .container-email {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: flex-start;
+
+    padding: 0;
+    margin: 0;
+    /* grid-template-columns: 1fr;
+    grid-template-rows: 1fr; */
+
+    background-repeat: no-repeat;
+    /* this is affecting the container size not the children */
+    width: 100vw;
+  }
+
+  .form {
+    flex-direction: column;
+    padding: 10px;
+    color: black;
+    /* background-color: brown; */
+  }
+
+  .box-email {
+    font-size: 14px;
+  }
+
+  .box-email {
+    color: #f4e3f6;
+    /* grid-column: 1 / 2;
+    grid-row: 1 / 2; */
+    /* I don't think this is doing much */
+    /* align-self: flex-start; */
+    transform: translate(0%, 0%);
+    width: 100vw;
+    /* height: 800px; */
+    pointer-events: auto;
+  }
+
+  .layer-email2 {
+    visibility: hidden;
+  }
+
+  .layer-email3 {
+    visibility: hidden;
+  }
+
+  /* for the mobile version I had to hide the twitter feed till later as it was causing massive issues */
+  .box-twitter, .layer-twitter, .layer1-twitter, .layer1-twitter:before, .twitter-timeline, .blockquote {
+    display: none;
+  }

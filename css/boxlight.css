@@ -58,7 +58,6 @@
 /* deals with the right side */
 .box_light .second-title {
   position: absolute;
-  font-family: "Roboto";
   padding: 5px;
   z-index: 1000;
   top: 60%;

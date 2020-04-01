@@ -9,7 +9,7 @@ body {
   height: 700px;
   width: 100vw;
   background: #090e17;
-  background-image: url(/images/junesleep.png);
+  background-image: url(/images/rabbits.png);
   background-repeat: no-repeat;
   background-size: cover;
   pointer-events: none;
@@ -37,7 +37,7 @@ body {
 }
 
 .container-film:hover {
-  background-image: url(/images/rabbits.png);
+  background-image: url(/images/junesleep.png);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -54,7 +54,7 @@ body {
   padding: 20px;
   box-sizing: border-box;
   transition: 0.8s;
-  background: #202244;
+  background: #7e1f37;
   z-index: 3;
   overflow: hidden;
 }
@@ -63,7 +63,7 @@ body {
   top: -10px;
   left: 10px;
   box-shadow: 0 5px 20px rgba(0, 0, 0, 1);
-  background: #3b96ca;
+  background: #202244;
 }
 
 .box .layer1:before {

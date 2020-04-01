@@ -4,7 +4,7 @@
 @import "./css/footer.css";
 @import "./css/hover.css";
 @import "./css/boxlight.css";
-@import url("https://fonts.googleapis.com/css?family=Titillium+Web:400,600");
+
 @import "./css/contact.css";
 @import "./css/skills.css";
 @import "./css/project.css";
@@ -16,7 +16,7 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: "Titillium Web";
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 /* ///////////////////////////////////////////////////////////////////////////////////////// */
@@ -104,7 +104,7 @@
   /* stroke here makes it hard on the eyes... maybe not on */
 
   /* background-color: #d7c892; */
-  background: #202244;
+  background: #006d50;
   font-size: 1.5em;
 }
 
@@ -116,7 +116,7 @@
   justify-content: center;
   align-items: center;
   /* background-color: #d7c892; */
-  background-color: #202244;
+  background-color: #006d50;
 }
 /* end of about section */
 

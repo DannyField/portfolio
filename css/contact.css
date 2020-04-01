@@ -68,7 +68,7 @@
   /* padding: 20px; */
   /* box-sizing: border-box; */
   transition: 0.8s;
-  background: #202244;
+  background: #0e3843;
   z-index: 3;
   overflow: hidden;
   padding: 5px;
@@ -78,7 +78,7 @@
   top: -10px;
   left: 10px;
   box-shadow: 0 5px 20px rgba(0, 0, 0, 1);
-  background: #3b96ca;
+  background: #7e1f37;
 }
 
 .box-email .layer-email:before {

@@ -181,6 +181,7 @@
     flex-direction: column;
     justify-content: space-evenly;
     height: 250px;
+    align-content: center;
   }
 
   .leftf {

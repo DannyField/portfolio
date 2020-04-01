@@ -516,6 +516,8 @@ a {
 /* ////////////////////////////////////////////////////////// */
 /* /////////////////////////////////////////////////////////////////////////////////////// */
 
+/* I went with 850px as originally my nav bar was causing issues, so 850 was chosen */
+/* for the nav bar and footer there are smaller config though */
 @media all and (max-width: 850px) {
   .web-container,
   .game-container,
